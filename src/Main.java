@@ -34,14 +34,16 @@ public class Main {
         // task 6
         System.out.println("Задание 6");
         for (int i = 7; i <= 98; i = i + 7) {
-            System.out.println(i);
+            System.out.print(" " + i);
         }
+        System.out.println();
 
         //task 7
         System.out.println("Задание 7");
         for (int i = 1; i <= 512; i = i * 2) {
-            System.out.println(i);
+            System.out.print(" " + i);
         }
+        System.out.println();
 
         // task 8
         System.out.println("Задача 8");
