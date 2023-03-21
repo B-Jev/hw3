@@ -61,6 +61,15 @@ public class Main {
             totalBank = totalBank + contributionBank;
             System.out.println("Месяц " + i + " сумма накоплений равна " + totalBank + " рублей.");
         }
+
+        // task 10
+        System.out.println("Задание 10");
+        int a = 2;
+        int c = 0;
+        for (int b = 1; b <= 10; b++) {
+            c = a * b;
+            System.out.println(a + " * " + b + " = " + c);
+        }
     }
 
 
