@@ -42,6 +42,25 @@ public class Main {
         for (int i = 1; i <= 512; i = i * 2) {
             System.out.println(i);
         }
+
+        // task 8
+        System.out.println("Задача 8");
+        int contribution = 29000;
+        int total = 0;
+        for (int i = 1; i <= 12; i++) {
+            total = total + contribution;
+            System.out.println("Месяц " + i + " сумма накоплений равна " + total + " рублей.");
+        }
+
+        // task 9
+        System.out.println("Задача 9");
+        int contributionBank = 29000;
+        int totalBank = 0;
+        for (int i = 1; i <= 12; i++) {
+            totalBank = totalBank + totalBank / 100;
+            totalBank = totalBank + contributionBank;
+            System.out.println("Месяц " + i + " сумма накоплений равна " + totalBank + " рублей.");
+        }
     }
 
 
